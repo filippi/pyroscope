@@ -1,0 +1,12 @@
+# Runtime data and local configuration do not belong in the source repository.
+/ARCH/
+*.mp4
+*.hvdb
+*.stfy
+*.h3ti
+*.h3ti.zst
+*.frp1
+.env
+.env.*
+.DS_Store
+*.log
