@@ -12,6 +12,19 @@ The current deployment can be seen in this short demonstration:
 
 Tabula Caloris is the observational and historical-fire component developed in response to [Challenge 10 — PyroScope: Web visualisation tool for fire products](https://github.com/ECMWFCode4Earth/Challenges_2026/issues/3).
 
+## Live deployment
+
+> **Note:** the current deployment is served over HTTP, not HTTPS.
+
+- [Open Tabula Caloris / PyroScope](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/)
+- [Explore archive statistics](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/stats.html)
+- [Open Burning Earth](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/burningearth/)
+- [Example: Madrid wildfire event](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/event.html?87392a684ffffff_8201a9829000)
+
+Although developed primarily for wildfire monitoring and analysis, the system indexes **thermal detections rather than only classified wildfires**. It can therefore also expose other persistent or transient thermal events detected by satellite, including **oil and gas flares, volcanic eruptions, industrial heat sources and other thermal anomalies**.
+
+This makes the archive useful both as a wildfire exploration system and as a broader global browser of satellite-detected high-temperature events.
+
 The objective is simple: make very large fire-observation archives immediately explorable, from a global multi-decadal view down to the evolution of an individual fire event, without turning the browser into the bottleneck.
 
 The interface is designed for rapid spatial and temporal exploration of satellite hotspots: pan anywhere on Earth, move through time, identify active clusters, compare regions and seasons, and drill down from global statistics to individual detections and reconstructed fire events.
