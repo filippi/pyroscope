@@ -6,9 +6,8 @@ i# Tabula Caloris / PyroScope — browser frontend
 
 The current deployment can be seen in this short demonstration:
 
-[![Tabula Caloris / PyroScope demo](https://img.youtube.com/vi/ENZtkg4lCrE/maxresdefault.jpg)](https://youtu.be/ENZtkg4lCrE?si=Vg7cRrL3BLNJaQAn)
-
-[Watch the demo on YouTube](https://youtu.be/ENZtkg4lCrE?si=Vg7cRrL3BLNJaQAn)
+[![Tabula Caloris / PyroScope demo](https://img.youtube.com/vi/tPAYWiw7Thg/maxresdefault.jpg)](https://youtu.be/tPAYWiw7Thg)
+[Watch the demo on YouTube](https://youtu.be/tPAYWiw7Thg)
 
 Tabula Caloris is the observational and historical-fire component developed in response to [Challenge 10 — PyroScope: Web visualisation tool for fire products](https://github.com/ECMWFCode4Earth/Challenges_2026/issues/3).
 
