@@ -1,4 +1,4 @@
-i# Tabula Caloris / PyroScope — browser frontend
+# Tabula Caloris / PyroScope — browser frontend
 
 **A fast, browser-based explorer for satellite-detected fire activity, developed for the ECMWF Code for Earth 2026 PyroScope challenge.**
 
@@ -12,13 +12,21 @@ The current deployment can be seen in this short demonstration:
 Tabula Caloris is the observational and historical-fire component developed in response to [Challenge 10 — PyroScope: Web visualisation tool for fire products](https://github.com/ECMWFCode4Earth/Challenges_2026/issues/3).
 
 ## Live deployment
+## Live deployment
 
-> **Note:** the current deployment is served over HTTP, not HTTPS.
+> **Important:** the current deployment is available over **HTTP only**.  
+> If your browser automatically changes `http://` to `https://`, replace it manually with `http://`.
 
-- [Open Tabula Caloris / PyroScope](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/)
-- [Explore archive statistics](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/stats.html)
-- [Open Burning Earth](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/burningearth/)
-- [Example: Madrid wildfire event](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/event.html?87392a684ffffff_8201a9829000)
+Main interface:
+
+`http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/`
+
+- [Open Tabula Caloris / PyroScope — HTTP only](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/)
+- [Explore archive statistics — HTTP only](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/stats.html)
+- [Open Burning Earth — HTTP only](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/burningearth/)
+- [Example: Madrid wildfire event — HTTP only](http://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/event.html?87392a684ffffff_8201a9829000)
+
+If a link fails, copy and paste the URL and make sure it starts with **`http://`**, not `https://`.
 
 Although developed primarily for wildfire monitoring and analysis, the system indexes **thermal detections rather than only classified wildfires**. It can therefore also expose other persistent or transient thermal events detected by satellite, including **oil and gas flares, volcanic eruptions, industrial heat sources and other thermal anomalies**.
 
