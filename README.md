@@ -14,12 +14,12 @@ Tabula Caloris is the observational and historical-fire component developed in r
 
 Main interface:
 
-`https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/`
+`https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int/`
 
-- [Open Tabula Caloris / PyroScope ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/)
-- [Explore archive statistics ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/stats.html)
-- [Open Burning Earth ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/burningearth/)
-- [Example: Madrid wildfire event ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int:6443/event.html?87392a684ffffff_8201a9829000)
+- [Open Tabula Caloris / PyroScope ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int/)
+- [Explore archive statistics ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int/stats.html)
+- [Open Burning Earth ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int/burningearth/)
+- [Example: Madrid wildfire event ](https://pyroscope.ecmwf-pyroscope.compute.cci2.ecmwf.int/event.html?87392a684ffffff_8201a9829000)
 
 
 Although developed primarily for wildfire monitoring and analysis, the system indexes **thermal detections rather than only classified wildfires**. It can therefore also expose other persistent or transient thermal events detected by satellite, including **oil and gas flares, volcanic eruptions, industrial heat sources and other thermal anomalies**.
